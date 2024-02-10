@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --montserrat: 'Montserrat', sans-serif;
+}
+
+.active {
+  color: #0ea5e9;
+}

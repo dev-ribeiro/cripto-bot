@@ -1,7 +1,10 @@
 from flask import Flask, request, json
+from flask_cors import CORS
 from binance_service import BinanceService
 
 app = Flask(__name__)
+
+CORS(app)
 
 binance_service = BinanceService()
 

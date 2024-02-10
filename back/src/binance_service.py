@@ -10,7 +10,7 @@ class BinanceService:
 
     async def findAllExchangeInfo(self):
         try:
-            query = self.client.exchange_info()
+            query = self.client.ticker_price()
 
             return query
 

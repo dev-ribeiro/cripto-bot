@@ -19,7 +19,7 @@ class BinanceService:
 
     async def findQuotesFromLast24Hours(self, symbol):
         try:
-            query = self.client.exchange_info(symbol=symbol)
+            query = self.client.ticker_24hr(symbol=symbol)
 
             return query
 

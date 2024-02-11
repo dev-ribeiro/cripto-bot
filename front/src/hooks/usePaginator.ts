@@ -1,10 +1,10 @@
 import { useState } from "react"
 
-type Props = {
-  data: any[] | undefined;
+type Props<T> = {
+  data: T[] | undefined;
 }
 
-export function usePaginator({ data }: Props) {
+export function usePaginator<T>({ data }: Props<T>) {
   const items = data ?? [];
 
   const itemsPerPage = 10;

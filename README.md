@@ -6,7 +6,7 @@ Projeto de uma aplicação web que consome a API da Binance e consegue monitorar
 
 ## Projeto
 
-![Imagem](.github/landing_page.png)
+![Imagem](.github/banner.png)
 
 ![Imagem](.github/monitoring.png)
 

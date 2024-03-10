@@ -19,7 +19,7 @@ export function useHome() {
     queryKey: ['ticker_24h', activeSymbol],
     queryFn: () => binanceService.findQuoteData(activeSymbol!.symbol),
     enabled: activeSymbol !== null,
-    refetchInterval: 5 * 1000
+    refetchInterval: 15 * 1000
   })
 
   const updateActiveSymbol = (value: SymbolDTO | null) => {
